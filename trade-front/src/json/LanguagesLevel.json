@@ -1,0 +1,27 @@
+[
+    {
+        "label": "Débutant niveau A1",
+        "value": 1,
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg"
+    },
+    {
+        "label": "Débutant niveau A2",
+        "value": 2,
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg"
+    },
+    {
+        "label": "Intermédiaire niveau B2",
+        "value": 3,
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg"
+    },
+    {
+        "label": "Courant (niveau C1)",
+        "value": 4,
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg"
+    },
+    {
+        "label": "Langue maternelle / Bilingue (niveau C2 et +)",
+        "value": 5,
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg"
+    }
+  ]

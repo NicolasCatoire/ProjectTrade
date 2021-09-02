@@ -1,17 +1,20 @@
-import { Injectable } from '@nestjs/common';
+import { forwardRef, Inject, Injectable } from '@nestjs/common';
 import { UsersService } from '../users/users.service';
 import { JwtService } from '@nestjs/jwt';
+const bcrypt = require ('bcrypt');
+const saltRounds = 10;
 
 @Injectable()
 export class AuthService {
-  constructor(
-    private usersService: UsersService,
-    private jwtService: JwtService
+  constructor(@Inject(forwardRef(() => UsersService))
+              private usersService: UsersService,
+              private authService: AuthService,
+              private jwtService: JwtService,
   ) {}
 
   async validateUser(username: string, pass: string): Promise<any> {
-    const user = await this.usersService.findOne(username);
-    if (user && user.password === pass) {
+    const user = await this.usersService.findByUsername(username);
+    if (user && user[0].password === pass) {
       const { password, ...result } = user;
       return result;
     }

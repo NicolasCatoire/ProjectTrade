@@ -1,0 +1,50 @@
+[
+  {
+    "label": "Gratification de stage",
+    "value": 0
+  },
+  {
+    "label": "Le SMIC",
+    "value": 1
+  },
+  {
+    "label": "Entre le SMIC et 20 000 €",
+    "value": 2
+  },
+  {
+    "label": "De 20 000 à 30 000 €",
+    "value": 3
+  },
+  {
+    "label": "De 30 000 à 40 000 €",
+    "value": 4
+  },
+  {
+    "label": "De 40 000 à 50 000 €",
+    "value": 5
+  },
+  {
+    "label": "De 50 000 à 60 000 €",
+    "value": 6
+  },
+  {
+    "label": "De 60 000 à 80 000 €",
+    "value": 7
+  },
+  {
+    "label": "De 80 000 à 100 000 €",
+    "value": 8
+  },
+  {
+    "label": "De 100 000 à 150 000 €",
+    "value": 9
+  },
+  {
+    "label": "De 150 000 à 200 000 €",
+    "value": 10
+  },
+  {
+    "label": "Plus de 200 000 €",
+    "value": 11
+  }
+]

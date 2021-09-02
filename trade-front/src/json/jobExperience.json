@@ -1,0 +1,18 @@
+[
+  {
+    "label": "Débutant junior (moins de 2 ans)",
+    "value": 1
+  },
+  {
+    "label": "Intermédiaire (2 à 4 ans)",
+    "value": 2
+  },
+  {
+    "label": "Confirmé (+ de 5 ans)",
+    "value": 3
+  },
+  {
+    "label": "Expert (+ de 10 ans)",
+    "value": 4
+  }
+]
